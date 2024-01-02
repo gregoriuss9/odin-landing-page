@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 body{
-    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Roboto, sans-serif;
+    /* font-family: 'roboto','Open Sans', 'Helvetica Neue', sans-serif; */
     margin: 0;
     min-height: 100vh;
     display: flex;
@@ -19,11 +21,13 @@ header{
 }
 
 footer{
-    display: flex;
-    flex-shrink: 0;
     margin: 0;
     justify-content: space-around;
     text-align: center;
+}
+
+footer a{
+    color: yellow;
 }
 
 .container{
